@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Main style sheet link -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Swiper Js Css file link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    >
+    <!-- Fontawesome Link -->
+    <script
+      src="https://kit.fontawesome.com/f98bd9c9ca.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>BizOne</title>
+  </head>
+  <body>
+    <!-- Navbar Bar -->
+    <nav class="navbar" id="navbar">
+      <a href="#home" class="navbar__logo">BizOne<span>.</span></a>
+      <ul class="navbar__list">
+        <li class="navbar__list__items" ><a href="#home">Home</a></li>
+        <li class="navbar__list__items"><a href="#about">about</a></li>
+        <li class="navbar__list__items"><a href="#team">team</a></li>
+        <li class="navbar__list__items"><a href="#projects">work</a></li>
+        <li class="navbar__list__items"><a href="#prices">prices</a></li>
+        <li class="navbar__list__items"><a href="#blog">blog</a></li>
+        <li class="navbar__list__items"><a href="#contact">contact us</a></li>
+      </ul>
+      <div class="closeBtn" id="closeMenu"><i class="fa-solid fa-xmark"></i></div>
+    </nav>
+   <div class="hamburger__menu" id="menu">
+    <i class="fa-solid fa-bars"></i>
+   </div>
+   <div class="scrollToTop" >
+   <a href="#home"> <i class="fa-solid fa-arrow-up"></i></a>
+   </div>
+    <!--------------------------------------->
+
+    <!-- Hero Slider -->
+    <div class="hero" id="home">
+      <div class="slide active">
+        <div class="slide__container">
+          <div class="slide__content">
+            <div class="slide__icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="slide__text">
+              <p>Quickly setup your website</p>
+              <h1>
+                BizOne is designed Specially <br />
+                for startups
+              </h1>
+              <p>It has all unique & and new digital experience layouts.</p>
+              <button class="slide__btn">Read More</button>
+              <button class="slide__btn">Buy BizOne</button>
+            </div>
+          </div>
+          <div class="slide__img">
+            <img src="../images/hero_sliderImg2.jpg" alt="img" />
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide__container">
+          <div class="slide__content">
+            <div class="slide__icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="slide__text">
+              <p>Quickly setup your website</p>
+              <h1>
+                Style up your Business <br />
+                Strategy
+              </h1>
+              <p>It has all unique & and new digital experience layouts.</p>
+              <button class="slide__btn">Read More</button>
+              <button class="slide__btn">Buy BizOne</button>
+            </div>
+          </div>
+          <div class="slide__img">
+            <img src="../images/hero_sliderImg1.jpg" alt="img" />
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide__container">
+          <div class="slide__content">
+            <div class="slide__icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="slide__text">
+              <p>Quickly setup your website</p>
+              <h1>
+                BizOne is designed Specially <br />
+                for startups
+              </h1>
+              <p>It has all unique & and new digital experience layouts.</p>
+              <button class="slide__btn">Read More</button>
+              <button class="slide__btn">Buy BizOne</button>
+            </div>
+          </div>
+          <div class="slide__img">
+            <img src="../images/hero_sliderImg3.jpg" alt="img" />
+          </div>
+        </div>
+      </div>
+      <div class="slide__navigation">
+        <div id="previous" class="btn" onclick="prev()">
+          <i class="fa-solid fa-arrow-left"></i>
+        </div>
+        <div id="next" class="btn" onclick="next()">
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </div>
+    </div>
+    <!------------------------------------->
+
+    <!-- What we offer -->
+    <div class="services" id="about">
+      <p>Our valued services</p>
+      <h1>What we offer</h1>
+      <div class="services__container">
+        <div class="services__card">
+          <i class="fa-solid fa-gear"></i>
+          <h2>Unlimited Features</h2>
+          <p>
+            Keep away from people who try to be little your ambitions. Small
+            people always do that but really great.
+          </p>
+        </div>
+        <div class="services__card">
+          <i class="fa-solid fa-umbrella"></i>
+          <h2>Unlimited Features</h2>
+          <p>
+            Keep away from people who try to be little your ambitions. Small
+            people always do that but really great.
+          </p>
+        </div>
+        <div class="services__card">
+          <i class="fa-solid fa-clock"></i>
+          <h2>Unlimited Features</h2>
+          <p>
+            Keep away from people who try to be little your ambitions. Small
+            people always do that but really great.
+          </p>
+        </div>
+        <div class="services__card">
+          <i class="fa-solid fa-lightbulb"></i>
+          <h2>Unlimited Features</h2>
+          <p>
+            Keep away from people who try to be little your ambitions. Small
+            people always do that but really great.
+          </p>
+        </div>
+        <div class="services__card">
+          <i class="fa-solid fa-globe"></i>
+          <h2>Unlimited Features</h2>
+          <p>
+            Keep away from people who try to be little your ambitions. Small
+            people always do that but really great.
+          </p>
+        </div>
+        <div class="services__card">
+          <i class="fa-solid fa-tablet"></i>
+          <h2>Unlimited Features</h2>
+          <p>
+            Keep away from people who try to be little your ambitions. Small
+            people always do that but really great.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Parallax Section -->
+
+    <div class="parallax">
+      <div class="parallax__container">
+        <p>Unleash your creative potential with BizOne.</p>
+        <h1>Looking For Exclusive Digital Service</h1>
+        <button>Lets Talk</button>
+      </div>
+    </div>
+
+    <!---------------------->
+
+    <!-- Experience Section -->
+    <div class="experience">
+      <div class="experience__img">
+        <img src="../images/experience_Img.png" alt="img" />
+      </div>
+      <div class="experience__content">
+        <div class="experience__content__container">
+          <h1>Unique Experience</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            non quas accusantium aliquam, ad molestias minus dignissimos
+            accusamus veritatis unde nulla illo culpa alias voluptas, tempore
+            perspiciatis eius nemo exercitationem!
+          </p>
+          <h2>Features</h2>
+          <ul>
+            <li><i class="fa-solid fa-check"></i>creative design</li>
+            <li><i class="fa-solid fa-check"></i>mobile developnment</li>
+            <li><i class="fa-solid fa-check"></i>website developnment</li>
+            <li><i class="fa-solid fa-check"></i>website desigining</li>
+            <li><i class="fa-solid fa-check"></i>graphic design</li>
+            <li><i class="fa-solid fa-check"></i>Graphic design</li>
+            <li><i class="fa-solid fa-check"></i>wordpress Theme</li>
+            <li><i class="fa-solid fa-check"></i>online marketing</li>
+          </ul>
+          <div class="experience__icons">
+            <i class="fa-solid fa-laptop"></i>
+            <i class="fa-solid fa-tablet"></i>
+            <i class="fa-solid fa-mobile"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------>
+    <!-- Counter Section -->
+    <div class="counters">
+      <div class="counter__container">
+        <div class="counter__card">
+          <i class="fa-solid fa-face-smile"></i>
+          <div class="counter" data-target="5000">0</div>
+          <h1>Happy customer</h1>
+        </div>
+        <div class="counter__card">
+          <i class="fa-solid fa-code"></i>
+          <div class="counter" data-target="10000">0</div>
+          <h1>lines of code</h1>
+        </div>
+        <div class="counter__card">
+          <i class="fa-solid fa-layer-group"></i>
+          <div class="counter" data-target="2000">0</div>
+          <h1>projects competed</h1>
+        </div>
+        <div class="counter__card" F>
+          <i class="fa-solid fa-mug-saucer"></i>
+          <div class="counter" data-target="56000">0</div>
+          <h1>cup of coffees</h1>
+        </div>
+      </div>
+    </div>
+    <!--------------------->
+
+    <!-- Expertise Section -->
+    <div class="expertise">
+      <p>Some of our skills</p>
+      <h1>Our Expertise</h1>
+      <div class="expertise__container">
+        <div class="progressbar__container">
+          <div class="progressbar">
+            <span class="progress__value">86%</span>
+          </div>
+          <h2>web developnment</h2>
+        </div>
+        <div class="progressbar__container">
+          <div class="progressbar two">
+            <span class="progress__value">90%</span>
+          </div>
+          <h2>developnment</h2>
+        </div>
+        <div class="progressbar__container">
+          <div class="progressbar three">
+            <span class="progress__value">75%</span>
+          </div>
+          <h2>app developnment</h2>
+        </div>
+        <div class="progressbar__container">
+          <div class="progressbar four">
+            <span class="progress__value">79%</span>
+          </div>
+          <h2>perfomance</h2>
+        </div>
+        <div class="progressbar__container">
+          <div class="progressbar five">
+            <span class="progress__value">92%</span>
+          </div>
+          <h2>usability</h2>
+        </div>
+      </div>
+    </div>
+    <!----------------------->
+    <!-- What we do Section -->
+    <div class="work">
+      <p>Our services keeps you happy</p>
+      <h1>What we do</h1>
+      <div class="work__container">
+        <div class="work__card">
+          <div class="card__headdiv"></div>
+          <div class="card__icon">
+            <i class="fa-solid fa-gear"></i>
+          </div>
+          <div class="card__content">
+            <h1>Hot design</h1>
+            <p>
+              keep away from people who try to be little your ambitions. Small
+              people always do that.
+            </p>
+            <span>read more</span>
+          </div>
+        </div>
+        <div class="work__card">
+          <div class="card__headdiv"></div>
+          <div class="card__icon">
+            <i class="fa-solid fa-lightbulb"></i>
+          </div>
+          <div class="card__content">
+            <h1>Hot design</h1>
+            <p>
+              keep away from people who try to be little your ambitions. Small
+              people always do that.
+            </p>
+            <span>read more</span>
+          </div>
+        </div>
+        <div class="work__card">
+          <div class="card__headdiv"></div>
+          <div class="card__icon">
+            <i class="fa-solid fa-pencil"></i>
+          </div>
+          <div class="card__content">
+            <h1>Hot design</h1>
+            <p>
+              keep away from people who try to be little your ambitions. Small
+              people always do that.
+            </p>
+            <span>read more</span>
+          </div>
+        </div>
+        <div class="work__card">
+          <div class="card__headdiv"></div>
+          <div class="card__icon">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+          </div>
+          <div class="card__content">
+            <h1>Hot design</h1>
+            <p>
+              keep away from people who try to be little your ambitions. Small
+              people always do that.
+            </p>
+            <span>read more</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------------->
+
+    <!-- Creative Thinkers -->
+    <div class="thinkers" id="team">
+      <p>Passionate about perfection</p>
+      <h1>Creative Thinkers</h1>
+      <div class="thinkers__container">
+        <div class="thinkers__card">
+          <div class="thinkers__card__img">
+            <img src="../images/thinkerImg1.jpg" alt="" />
+            <div class="thinkers__social__icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+          <div class="thinkers__card__content">
+            <h1>John Doe</h1>
+            <span>CEO</span>
+            <p>keep away from people who try to be little your ambitions.</p>
+          </div>
+        </div>
+        <div class="thinkers__card">
+          <div class="thinkers__card__img">
+            <img src="../images/thinkerImg2.jpg" alt="" />
+            <div class="thinkers__social__icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+          <div class="thinkers__card__content">
+            <h1>Mary Jane</h1>
+            <span> Co-Founder</span>
+            <p>Keep away from people who try to belittle your ambitions.</p>
+          </div>
+        </div>
+        <div class="thinkers__card">
+          <div class="thinkers__card__img">
+            <img src="../images/thinkerImg3.jpg" alt="" />
+            <div class="thinkers__social__icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+          <div class="thinkers__card__content">
+            <h1>Josh Clark</h1>
+            <span>Sales Head</span>
+            <p>keep away from people who try to be little your ambitions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------------->
+    <!-- Projects Section -->
+    <div class="project" id="projects">
+      <p>what we do</p>
+      <h1>Latest Projects</h1>
+      <div class="project__container">
+       <div class="project__images">
+        <img src="../images/projectImg (1).jpg" alt="" class="project__img"/>
+       </div>
+       <div class="project__images">
+        <img src="../images/projectImg (2).jpg" alt="" class="project__img"/>
+       </div>
+       <div class="project__images">
+        <img src="../images/projectImg (3).jpg" alt="" class="project__img"/>
+       </div>
+       <div class="project__images">
+        <img src="../images/projectImg (4).jpg" alt="" class="project__img"/>
+       </div>
+       <div class="project__images">
+        <img src="../images/projectImg (5).jpg" alt="" class="project__img"/>
+       </div>
+       <div class="project__images">
+        <img src="../images/projectImg (6).jpg" alt="" class="project__img"/>
+       </div>
+    </div>
+   </div>
+    <!---------------------->
+
+    <div class="pricing" id="prices">
+      <p>Passionate about perfection</p>
+      <h1>Pricing tables</h1>
+      <div class="pricing__card__warapper">
+        <div class="pricing__card">
+          <div class="pricing__headdiv"></div>
+          <div class="pricing__content">
+            <p>Basic</p>
+            <h1>$9.90</h1>
+            <p>perfect for single freelancers who work bny themselves</p>
+            <ul>
+              <li>support forum</li>
+              <li>free hosting</li>
+              <li>40mb of storage</li>
+            </ul>
+            <button>choose plan</button>
+          </div>
+        </div>
+        <div class="pricing__card">
+          <div class="pricing__headdiv popular"></div>
+          <div class="pricing__content">
+            <p>Popular</p>
+            <h1>$29.90</h1>
+            <p>Suitable for small businesses with up to 5 employees</p>
+            <ul>
+              <li>support forum</li>
+              <li>free hosting</li>
+              <li>10 hours of support</li>
+              <li>Social media integration</li>
+              <li>1GB of storage space</li>
+            </ul>
+            <button>choose plan</button>
+          </div>
+        </div>
+        <div class="pricing__card">
+          <div class="pricing__headdiv"></div>
+          <div class="pricing__content">
+            <p>Premium</p>
+            <h1>$9.90</h1>
+            <p>Great for large businesses with more than 5 employees</p>
+            <ul>
+              <li>support forum</li>
+              <li>free hosting</li>
+              <li>Unlimited hours of support</li>
+              <li>Social media integration</li>
+              <li>Anaylitcs integration</li>
+              <li>Unlimited storage space</li>
+              <li>Unlimited calls</li>
+            </ul>
+            <button>choose plan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------->
+
+    <!-- Testimonials Section -->
+    <div class="testimonials">
+      <p>People love our work</p>
+      <h1>Our Happy Clients</h1>
+      <div class="testimonials__container">
+        <div class="testimonials__slide">
+          <img src="../images/testimonialImg1.jpg" alt="img" />
+          <p>ohn smith - upwork client</p>
+          <div class="testimonials__rating__icon">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+            mollitia dolorem voluptatem dolor dolore fugit iure maiores
+            voluptate, non officiis deserunt, iusto quis labore quam doloremque
+            quasi consequuntur minima facere!
+          </p>
+        </div>
+        <div class="testimonials__slide">
+          <img src="../images/testimonialImg2.jpg" alt="img" />
+          <p>ohn smith - upwork client</p>
+          <div class="testimonials__rating__icon">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+            mollitia dolorem voluptatem dolor dolore fugit iure maiores
+            voluptate, non officiis deserunt, iusto quis labore quam doloremque
+            quasi consequuntur minima facere!
+          </p>
+        </div>
+        <div class="testimonials__slide">
+          <img src="../images/testimonialImg3.jpg" alt="img" />
+          <p>ohn smith - upwork client</p>
+          <div class="testimonials__rating__icon">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+            mollitia dolorem voluptatem dolor dolore fugit iure maiores
+            voluptate, non officiis deserunt, iusto quis labore quam doloremque
+            quasi consequuntur minima facere!
+          </p>
+        </div>
+      </div>
+    </div>
+    <!---------------------- -->
+
+    <!-- Publications Section -->
+    <div class="publications" id="blog">
+      <p>Stay always updated</p>
+      <h1 class="publications__header">Our Publications</h1>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper__img">
+              <img src="../images/projectImg (8).jpg" alt="" />
+            </div>
+            <p>18 November 2015</p>
+            <h1>Fimiliar Idea with brand</h1>
+            <p>by Smith - <span>5 comments</span></p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Architecto sequi temporibus qui, sit possimus culpa hic impedit
+              iusto natus est unde, dolorem pariatur molestias omnis nulla saepe
+              magni! Soluta, necessitatibus!
+            </p>
+            <a href="../html/blogpage.html">Read More</a>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper__img">
+              <img src="../images/projectImg (7).jpg" alt="" />
+            </div>
+            <p>18 November 2015</p>
+            <h1>Fimiliar Idea with brand</h1>
+            <p>by Smith - <span>5 comments</span></p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Architecto sequi temporibus qui, sit possimus culpa hic impedit
+              iusto natus est unde, dolorem pariatur molestias omnis nulla saepe
+              magni! Soluta, necessitatibus!
+            </p>
+            <a href="#">Read More</a>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper__img">
+              <img src="../images/projectImg (6).jpg" alt="" />
+            </div>
+            <p>18 November 2015</p>
+            <h1>Fimiliar Idea with brand</h1>
+            <p>by Smith - <span>5 comments</span></p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Architecto sequi temporibus qui, sit possimus culpa hic impedit
+              iusto natus est unde, dolorem pariatur molestias omnis nulla saepe
+              magni! Soluta, necessitatibus!
+            </p>
+            <a href="../html/blogpage.html">Read More</a>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper__img">
+              <img src="../images/projectImg (5).jpg" alt="" />
+            </div>
+            <p>18 November 2015</p>
+            <h1>Fimiliar Idea with brand</h1>
+            <p>by Smith - <span>5 comments</span></p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Architecto sequi temporibus qui, sit possimus culpa hic impedit
+              iusto natus est unde, dolorem pariatur molestias omnis nulla saepe
+              magni! Soluta, necessitatibus!
+            </p>
+            <a href="../html/blogpage.html">Read More</a>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper__img">
+              <img src="../images/projectImg (4).jpg" alt="" />
+            </div>
+            <p>18 November 2015</p>
+            <h1>Fimiliar Idea with brand</h1>
+            <p>by Smith - <span>5 comments</span></p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Architecto sequi temporibus qui, sit possimus culpa hic impedit
+              iusto natus est unde, dolorem pariatur molestias omnis nulla saepe
+              magni! Soluta, necessitatibus!
+            </p>
+            <a href="../html/blogpage.html">Read More</a>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper__img">
+              <img src="../images/projectImg (3).jpg" alt="" />
+            </div>
+            <p>18 November 2015</p>
+            <h1>Fimiliar Idea with brand</h1>
+            <p>by Smith - <span>5 comments</span></p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Architecto sequi temporibus qui, sit possimus culpa hic impedit
+              iusto natus est unde, dolorem pariatur molestias omnis nulla saepe
+              magni! Soluta, necessitatibus!
+            </p>
+            <a href="../html/blogpage.html">Read More</a>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper__img">
+              <img src="../images/projectImg (2).jpg" alt="" />
+            </div>
+            <p>18 November 2015</p>
+            <h1>Fimiliar Idea with brand</h1>
+            <p>by Smith - <span>5 comments</span></p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Architecto sequi temporibus qui, sit possimus culpa hic impedit
+              iusto natus est unde, dolorem pariatur molestias omnis nulla saepe
+              magni! Soluta, necessitatibus!
+            </p>
+            <a href="../html/blogpage.html">Read More</a>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper__img">
+              <img src="../images/projectImg (1).jpg" alt="" />
+            </div>
+            <p>18 November 2015</p>
+            <h1>Fimiliar Idea with brand</h1>
+            <p>by Smith - <span>5 comments</span></p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Architecto sequi temporibus qui, sit possimus culpa hic impedit
+              iusto natus est unde, dolorem pariatur molestias omnis nulla saepe
+              magni! Soluta, necessitatibus!
+            </p>
+            <a href="../html/blogpage.html">Read More</a>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <!------------------>
+
+    <div class="contact" id="contact">
+      <div class="contact__header">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, quia?
+        </p>
+        <button>Get In Touch</button>
+      </div>
+      <div class="contact__container">
+        <div class="contact__content">
+          <p>open for you</p>
+          <h1>We're Here</h1>
+          <p>
+            Keep away from people who try to belittle your ambitions Small
+            people always do that but the really great Friendly
+          </p>
+          <p>
+            <span>Postal Adress</span>: 198 West 21th Street Victoria 8007,
+            Australia
+          </p>
+          <p><span>Phone </span>: (283) 712-121-222</p>
+          <p><span>Email </span>: email@website.com</p>
+          <div class="contact__icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-dribbble"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+        <div class="contact__form">
+          <p>with Propositions</p>
+          <h1>Contact Us</h1>
+          <form action="">
+            <div class="form__input">
+              
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required>
+            </div>
+            <textarea
+              class="form__textarea"
+              placeholder="Message..."
+            ></textarea>
+            <button>Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Section -->
+    <div class="footer">
+      <ul>
+        <li class="navbar__list__items"><a href="#home">Home</a></li>
+        <li class="navbar__list__items"><a href="#about">about</a></li>
+        <li class="navbar__list__items"><a href="#team">team</a></li>
+        <li class="navbar__list__items"><a href="#work">work</a></li>
+        <li class="navbar__list__items"><a href="#prices">prices</a></li>
+        <li class="navbar__list__items"><a href="#blog">blog</a></li>
+        <li class="navbar__list__items"><a href="#contact">contact us</a></li>
+      </ul>
+      <p>Copyright &#169 BixOne. all rights reserved</p>
+        </div>
+      
+    <!-- Swiper Js Link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Script File Link -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>
